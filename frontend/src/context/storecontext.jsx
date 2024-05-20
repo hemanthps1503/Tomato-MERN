@@ -7,7 +7,7 @@ export const storecontext=createContext(null)
 const Storecontextprovider=(props)=>{
 
     const [cartItems,setcartitems]=useState({});
-    const url="http://localhost:4000"
+    const url="https://tomato-mern-stjr.onrender.com"
     const [token,settoken]=useState("");
     const  [food_list,setfoodlist]=useState([])
     const addtocart=async(itemId)=>{
