@@ -30,7 +30,7 @@ const placeorder =async(req,res)=>{
             },
             quantity:item.quantity
 
-        }))
+        })) 
         line_item.push({
             price_data:{
                 currency:"inr",
